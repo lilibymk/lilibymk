@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+:root {
+    --main-bg-color: rgba(255,200,210,1);
+  }
+
+  
+body{
+    /* background-color: var(--main-bg-color); */
+    /* https://cssgradient.io/ */
+    /* background: rgb(255,147,168); */
+    background: radial-gradient(circle, rgba(255,147,168,1) 0%, rgba(252,225,230,1) 100%);
+    /* font-family: "Luxurious Script", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+    /* sacramento */
+    /* Monsieur La Doulaise */
+    color: aqua;
+}
+
+
+.card{
+    background: rgb(255,255,255,0.5);
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+}
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    width: auto;
+    /* border: 1px solid blue; */
+}
+.mainrow{
+    background-color: var(--main-bg-color);
+    box-shadow: 10px ;
+    border-radius: 5%;
+    border: none;
+    padding: 15px 20px;
+}
+.flex-item {
+    flex-wrap: nowrap;
+    /* background-color: whitesmoke; */
+    padding: 5px;
+    width: auto;
+    height: 20px;
+    margin: 5px;
+    line-height: 20px;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 1em;
+    text-align: left;
+    justify-content: stretch;
+    position:relative;
+}
+
+.flex-item-right {
+    flex-wrap: nowrap;
+    /* background-color: whitesmoke; */
+    padding: 5px;
+    width: auto;
+    height: 20px;
+    margin: 10px;
+    line-height: 20px;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 2em;
+    text-align: right;
+    justify-content: stretch;
+    position:relative;
+}
+.avatar{
+    width:120px;
+    height:120px;
+    background-image:url('../img/avatarlili.jpeg');
+    background-size:cover;
+    border-radius:50%;
+    background-repeat:no-repeat;
+    background-position:center center;
+    margin-top: -80px;
+}
+
+.avatar:hover{
+    box-shadow: 0 8px 16px 0 rgba(233, 35, 134, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+    text-align: center;
+}
+.head{
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    position:relative;
+}
+
+link{
+    cursor: pointer;
+    
+}
+
+link:hover{
+    cursor: pointer;
+    background-color: red;   
+}
+
+footer{
+    position: fixed;
+    z-index: -1;
+    bottom: 0px;
+    align-content: center;
+    width: 100%;
+}
+
+
+.name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Luxurious Script", sans-serif;
+    font-size: 2em;
+}
+
+.job{
+    /* margin-top: 10px; */
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+div.card {
+    /* width: 250px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  div.card:hover {
+    /* width: 250px; */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+    text-align: center;
+  }
+
+.links-btn 
+{
+    /* width:60px;  */
+   height:60px;
+   float: right;
+   /* margin-bottom: 20px; */
+   
+}
+.img-link
+{ 
+   width:50px; 
+   height:50px;
+   display: block;
+   float: left;
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-link:hover
+{ 
+   width:60px; 
+   height:60px;
+   display: block;
+   float: left;
+   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.telegram-img{
+    background:url(../img/icons/lili/icons8-aplicación-telegrama-50.png) left top; 
+}
+.facebook-img{
+    background:url(../img/icons/lili/icons8-facebook-50.png) left top; 
+}
+
+.whatsapp-img{
+    background:url(../img/icons/lili/icons8-whatsapp-50.png) left top; 
+}
+
+.instagram-img{
+    background:url(../img/icons/lili/icons8-instagram-50.png) left top; 
+}
+.mail-img{
+    background:url(../img/icons/lili/icons8-correo-devuelto-50.png) left top; 
+}
